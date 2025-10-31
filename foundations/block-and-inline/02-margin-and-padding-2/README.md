@@ -1,11 +1,11 @@
-# Margin and Padding #2
+# 外边距和内边距练习 #2
 
-This one is a little nicer looking, and a little closer to something you might see in the real world. You'll need to change a little more than just margin and padding to make it look exactly right.
+这个练习看起来更美观一些，也更接近你在实际工作中可能会遇到的情况。你需要修改的不仅仅是外边距和内边距，才能使其看起来完全正确。
 
 ## Desired outcome
 ![desired outcome](./desired-outcome.png)
 
-### Self Check
-Use this section to check your work. On _these_ projects, your goal isn't to attain 100% pixel perfection, but to use the tools you've learned to get relatively close to the desired output.
+### 自查
+使用这个部分来检查你的工作。在这些项目中，你的目标不是达到100%的像素完美，而是使用你所学的工具来使其相对接近预期的输出。
 
-- Just as a reference, the font size in the desired outcome image is 16px. Aim to replicate the image *within reason*.
+- 仅供参考，预期效果图片中的字体大小为16px。目标是*在合理范围*内复制图片效果。

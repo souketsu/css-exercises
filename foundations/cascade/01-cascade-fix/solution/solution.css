@@ -24,19 +24,19 @@ div.text {
   font-size: 22px;
 }
 
-/* SOLUTION */
+/* 解决方案 */
 
 /* 
-  For the following rule, we removed it from its original position in the file:
+  对于下面的规则，我们把它从文件的原始位置移除了：
 
   .small-para {
     font-size: 14px;
     font-weight: 800;
   } 
 
-  Then we placed it after the .para selector, taking advantage of the rule order since both selectors have the same specificity. 
+  然后我们把它放在 .para 选择器之后，利用规则顺序的优势，因为两个选择器的特异性相同。 
   
-  Another solution would be keeping it in its original place and just chaining selectors, giving this rule a higher specificity:
+  另一种解决方法是将它保留在原位并通过链式选择器提高特异性，例如：
 
   p.small-para {
     font-size: 14px;
@@ -50,7 +50,7 @@ div.text {
 }
 
 /* 
-  For the following rule we removed the original .confirm selector:
+  对于下面的规则，我们移除了原始的 .confirm 选择器：
 
   .confirm {
     background: green;
@@ -58,9 +58,9 @@ div.text {
     font-weight: bold;
   } 
 
-  Then we used an ID selector instead, since it has a higher specificity than the .button selector.
+  然后我们使用了 ID 选择器，因为它的特异性高于 .button 选择器。
 
-  Other solutions would be to simply move the .confirm rule below the .button rule, or to use the .button.confirm selector without moving it:
+  其他解决方案是简单地将 .confirm 规则移动到 .button 规则下面，或者使用 .button.confirm 选择器而不移动它：
 
   .button.confirm {
     background: green;
@@ -76,7 +76,7 @@ div.text {
 }
 
 /*
-  For the following rule we first removed it from its original position in the file: 
+  对于下面的规则，我们首先将其从文件中的原始位置移除：
 
   .child {
     color: rgb(0, 0, 0);
@@ -84,10 +84,10 @@ div.text {
     font-size: 14px;
   }
 
-  Then we added another selector to create a descendant combinator. If we only created a descendant combinator, the specificity would be tied with the
-  div.text selector and it would come down to rule order, and if we only moved it, the div.text selector would still have a higher specificity.
+  然后我们添加了另一个选择器来创建后代组合器。如果我们只创建后代组合器，特异性将会与
+  div.text选择器相同，这将取决于规则顺序；而如果我们只是移动它，div.text选择器仍然会有更高的特异性。
   
-  Another solution would be to keep the rule where it was and just replace the div selector with the .text selector:
+  另一种解决方案是保持规则在原来的位置，只需将div选择器替换为.text选择器：
 
   .text .child {
     color: rgb(0, 0, 0);
