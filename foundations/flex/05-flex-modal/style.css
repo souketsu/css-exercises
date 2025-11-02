@@ -67,3 +67,62 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* 我的代码 */
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  /* gap: 16px; */
+}
+
+.icon {
+  /* margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  flex-shrink: 0;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  /* flex-shrink: 1; */
+  /* padding: 16px; */
+}
+
+.header {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.text {
+  margin-bottom: 8px;
+}
+
+.button-container {
+  gap: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+} 
+
+/* .close-button {
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+} */

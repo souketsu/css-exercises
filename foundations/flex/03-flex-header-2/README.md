@@ -1,21 +1,21 @@
-# Another common header style
+# 另一种常见的标题样式
 
-We're starting to sneak in a little more CSS that you haven't seen yet. Don't worry about this for now; we just want things to look a little bit prettier, and this CSS will not interfere with your task.
+我们开始加入一些你以前还没见过的 CSS。现在不用担心这些；我们只是想让页面看起来更漂亮些，这些 CSS 不会影响你的任务。
 
-For this one you will probably need to edit the HTML a little bit. Often with flexbox you need to add containers around things to make them go where you need them to go. In this case, you probably want to separate the items that go on the left and right of the header.
+这个练习你可能需要稍微修改一下 HTML。使用 flexbox 时经常需要在元素周围添加容器，以便把它们放到你想要的位置。在这种情况下，你可能需要把标题中左侧和右侧的元素分开成不同的容器。
 
-Just like you did in the `02-flex-header` exercise, you'll be nesting flex containers inside each other.
+就像你在 `02-flex-header` 练习中做的那样，你需要将 flex 容器嵌套在另一个容器内部。
 
-## Desired outcome
-As with the last example, this one needs to be flexible in the middle, with items pushed to the left and right.
+## 期望结果
+与上一个示例一样，本练习中间部分需要是可伸缩的，两侧的元素分别靠左和靠右。
 
 ![png](./desired-outcome.png)
 
 ![gif](./desired-outcome.gif)
 
-### Self Check
-- Everything is centered vertically inside the header.
-- There is 8px space between everything and the edge of the header.
-- Items are arranged horizontally as seen in the outcome image.
-- There is 16px between each item on both sides of the header.
-- flex is used to arrange everything.
+### 自我检查
+- 所有内容在标题内垂直居中。
+- 所有内容与标题边缘之间有 8px 的间距。
+- 元素按横向排列，如示例图片所示。
+- 标题两侧每个元素之间有 16px 间距。
+- 使用 flex 来排列所有元素。

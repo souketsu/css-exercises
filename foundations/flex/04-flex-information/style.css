@@ -24,3 +24,31 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* 我的代码 */
+
+body {
+  /* 页面上所有默认继承了 text-align 属性的文本元素（如标题、段落等）都会自动居中对齐，无需为每个文本元素单独设置居中样式 */
+  text-align: center;
+}
+
+.title {
+  /* display: flex;
+  justify-content: center; */
+  margin-bottom: 32px;
+}
+
+.projet-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.projet {
+  padding: 16px;
+  /* max-width 允许元素在小屏幕上自动收缩，而 width 会保持固定宽度，可能导致在小屏幕上出现水平滚动条 */
+  max-width: 200px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+}

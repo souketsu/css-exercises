@@ -24,3 +24,54 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+/* 我的代码 */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 页眉 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+/* 主体 */
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+  
+}
+
+button {
+  padding: 8px 16px;
+}
+
+/* 页脚 */
+
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+}

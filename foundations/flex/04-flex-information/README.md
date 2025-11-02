@@ -1,8 +1,8 @@
-# A very common website feature
+# 一个非常常见的网站功能
 
-The goal of this exercise is to recreate a section that is found on many informational websites.
+本练习的目标是重新创建一个在许多信息网站上都能找到的部分。
 
-For this one you will need to edit the HTML a little bit too. We can't be making things _too_ easy for you. You'll want to add containers around the various elements so that you can flex them. Good luck!
+对于这个练习，你还需要稍微编辑一下HTML。我们不能让事情变得太简单了。你需要在各种元素周围添加容器，以便能够对它们应用flex布局。祝你好运！
 
 ## Desired outcome
 
@@ -10,10 +10,10 @@ For this one you will need to edit the HTML a little bit too. We can't be making
 
 ### Self Check
 
-- All items are centered on the page (horizontally, not vertically).
-- The title is centered on the page.
-- There is 32px between the title and the 'items.'
-- There is 52px between each item.
-- The items are arranged horizontally on the page.
-- The items are only 200px wide and the text wraps.
-- The item text is centered.
+- 所有项目在页面上居中（水平居中，非垂直居中）。
+- 标题在页面上居中。
+- 标题和'项目'之间有32px的间距。
+- 每个项目之间有52px的间距。
+- 项目在页面上水平排列。
+- 项目宽度仅为200px，文本会自动换行。
+- 项目文本居中对齐。

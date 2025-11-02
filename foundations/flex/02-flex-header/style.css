@@ -23,3 +23,37 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/* 我的代码 */
+
+.header {
+  padding: 8px; /* 发现最后面的超出box后面补充的 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+/* 原代码，不需要直接应用到具体标签
+.logo {
+  display: flex;
+  justify-content: center;
+} 
+
+ .left-links ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.right-links ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+} */

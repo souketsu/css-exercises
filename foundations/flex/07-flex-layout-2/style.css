@@ -5,13 +5,13 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: auto;
   background: darkmagenta;
   color: white;
 }
 
 .footer {
-  height: 72px;
+  height: auto;
   background: #eee;
   color: darkmagenta;
 }
@@ -26,4 +26,77 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+/* 我的代码 */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 页眉 */
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  /* margin: 0; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 16px;
+}
+
+/* 主体 */
+
+.content {
+  flex: 1;
+  display: flex;
+}
+
+/* 侧边栏 */
+
+.sidebar {
+  flex-shrink: 0;
+  /* width: 300px; */
+  padding: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* 主内容 */
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 48px;
+}
+
+.card {
+  padding: 48px;
+  max-width: 200px;
+}
+
+/* 页脚 */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  padding: 16px;
 }

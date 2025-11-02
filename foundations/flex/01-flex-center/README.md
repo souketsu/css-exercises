@@ -1,12 +1,13 @@
-# CENTER THIS DIV
-This one is simple, but it's something that you'll want to do ALL THE TIME.  Might as well get it out of the way now.
+# 居中这个 DIV
 
-All you need to do is center the red div inside the blue container.
+这个任务很简单，但这是你将来会经常需要做的事情。不妨现在就掌握它。
 
-## Desired Outcome
-![outcome](./desired-outcome.png)
+你只需要将红色的 div 在蓝色容器中居中显示。
 
-### Self Check
-- Is the red div centered?
-- Did you _only_ use flexbox to center it?
+## 预期效果
 
+![预期效果](./desired-outcome.png)
+
+### 自查
+
+- 红色 div 是否居中了？

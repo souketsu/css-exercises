@@ -1,22 +1,24 @@
-# An entire page!
+# 整个页面布局！
 
-Flexbox is useful for laying out entire pages as well as the smaller components we've already been working with. For this exercise, we're leaving you with a little more work to do, with some things you may not have encountered yet. It's perfectly acceptable to google things you're unsure of!
+Flexbox不仅适用于我们之前处理的小组件，也适用于整个页面的布局。在这个练习中，我们会给你更多任务，其中可能包含一些你尚未遇到过的内容。如果你不确定某些内容，完全可以通过谷歌搜索来解决！
 
-### Hints
-- You may want to search something like `CSS remove list bullets`.  We've done this for you in previous examples, but not here. Yay learning.
-- Finding out how to style links in CSS might help you get rid of that pesky underline decoration...
-- We've added `height: 100vh` to the `body`... this makes the body exactly the same height as the viewport. To stick the footer to the bottom you will need to use flex and change the direction to column.
+## 提示
 
-## Desired Outcome
+- 你可能需要搜索类似 `CSS remove list bullets`（CSS移除列表项目符号）的内容。在之前的例子中我们已经为你处理了这个问题，但在这个练习中没有。这是学习的一部分。
+- 了解如何在CSS中设置链接样式可能会帮助你去除那些讨厌的下划线装饰...
+- 我们已经为 `body` 添加了 `height: 100vh` 属性...这使得body的高度与视口完全相同。要将页脚固定在底部，你需要使用flex并将方向更改为column（列）。
+
+## 期望结果
+
 ![desired outcome](./desired-outcome.png)
 
-### Self Check
+## 自我检查
 
-- The header is at the top of the page, the footer is at the bottom, and they stay in place if you resize your screen.
-- The header and footer have padding.
-- The links in the header and footer are pushed to either side.
-- There is space between the links in the header and footer.
-- The footer has a light gray background (`#eeeeee`).
-- The logo, input and buttons are centered in the screen.
-- The buttons have an appropriate amount of padding.
-- There is space between the logo, input and buttons.
+- 页眉位于页面顶部，页脚位于底部，并且在调整屏幕大小时它们会保持在原位。
+- 页眉和页脚有内边距（padding）。
+- 页眉和页脚中的链接被推到两侧。
+- 页眉和页脚中的链接之间有间距。
+- 页脚有浅灰色背景（`#eeeeee`）。
+- 标志、输入框和按钮在屏幕中居中显示。
+- 按钮有适当的内边距。
+- 标志、输入框和按钮之间有间距。

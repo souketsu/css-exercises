@@ -1,20 +1,19 @@
-# A Basic Header
+# 基础页眉
 
-Use flexbox rules to create this very common webpage header style. The benefit to using flex here is that everything should be _flexible_. Check out the two screenshots below to get an idea of how it should scale with your screen. Besides flex rules, you'll also want to add some rules for margin and padding. (Hint: `ul`s have some default margin/padding that you will need to deal with.)
+使用 flexbox 规则创建这个非常常见的网页页眉样式。在这里使用 flex 的好处是所有内容都应该是 _灵活的_。查看下面的两张截图，了解它应该如何随屏幕缩放。除了 flex 规则外，你还需要添加一些 margin 和 padding 规则。（提示：`ul` 元素有一些默认的 margin/padding，你需要处理它们。）
 
-## Desired Outcome
+## 预期效果
 
-narrow:
-![narrow](./desired-outcome-narrow.png)
+窄屏：
+![窄屏](./desired-outcome-narrow.png)
 
-wide: 
-![wide](./desired-outcome-wide.png)
+宽屏：
+![宽屏](./desired-outcome-wide.png)
 
-### Self Check
-- There is space between all items and the edge of the header (specific px amount doesn't matter here).
-- Logo is centered vertically and horizontally.
-- list-items are horizontal, and are centered vertically inside the header.
-- left-links and right-links are pushed all the way to the left and right, and stay at the edge of the header when the page is resized.
-- Your solution does not use floats, inline-block, or absolute positioning.
+### 自查
 
-- Note: For this exercise, it's completely acceptable to not match the font-family.
+- 所有项目与页眉边缘之间有间距（具体像素数量在此不重要）。
+- Logo 垂直和水平居中。
+- 列表项是水平的，并且在页眉内垂直居中。
+- 左侧链接和右侧链接分别被推到最左边和最右边，并且在页面调整大小时保持在页眉边缘。
+- 你的解决方案不使用 floats、inline-block 或绝对定位。
