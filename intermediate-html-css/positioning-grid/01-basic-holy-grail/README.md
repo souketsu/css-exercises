@@ -1,24 +1,24 @@
-# The Holy Grail Layout with Grid
+# 使用 Grid 实现圣杯布局
 
-Now it's time to practice the Grid tools we've learned and create a layout that might seem familiar. We're going to make a Holy Grail Layout like the ones we created using Flexbox. The difference here is that we won't be relying on Flexbox for this exercise. We'll only be using Grid. You'll be able to see the benefits of Grid for yourself!
+现在是时候练习我们所学的 Grid 工具，创建一个看起来熟悉的布局了。我们将使用 Grid 制作一个圣杯布局，就像我们之前使用 Flexbox 创建的那样。不同之处在于，在这个练习中我们不会依赖 Flexbox，而只会使用 Grid。你将能够亲自看到 Grid 的好处！
 
-### Hints
+### 提示
 
-- You only need to add to the CSS selectors
-- Look back to the Creating a Grid lesson if you forget how to turn an element into a grid
-- Use fixed track sizes (e.g. pixels) for your columns and rows
+- 你只需要添加到 CSS 选择器中
+- 如果你忘记了如何将元素转换为网格，请回顾创建网格的课程
+- 对列和行使用固定的轨道大小（例如像素）
 
-## Desired Outcome
+## 期望结果
 
-![desired outcome](./desired-outcome.png)
+![期望结果](./desired-outcome.png)
 
-### Self Check
+### 自我检查
 
-- The gap is 15px
-- The grid has two columns
-- The grid has four rows
-- The second column is three times larger than the first
-- The third row is five times larger than the others
-- The header and footer elements span across both columns
-- The sidebar element only spans across the first column
-- The nav and article elements span across the second column
+- 间隙为 15px
+- 网格有两列
+- 网格有四行
+- 第二列是第一列的三倍大
+- 第三行是其他行的五倍大
+- header 和 footer 元素横跨两列
+- sidebar 元素只横跨第一列
+- nav 和 article 元素横跨第二列
