@@ -1,35 +1,37 @@
-# Holy Grail Mockup with Grid
+# 使用Grid布局实现Holy Grail模板
 
-Now that you've made your Holy Grail layout responsive, we are going to have some fun making it a bit more complicated and adding some features. You might find this to be a bit more challenging than you expected. You might even be tempted to use Flexbox. But for the sake of this practice assignment, try and see if you can figure out how to recreate this entire mockup using only Grid. Feel free to add in your own dummy content or styling too!
+既然你已经让Holy Grail布局变得响应式了，现在我们要让它变得更复杂一些，并添加一些新功能。你可能会发现这比你预期的要更具挑战性。你甚至可能会想使用Flexbox。但为了这个练习作业，请尝试看看是否能仅使用Grid来重新创建整个模板。你也可以自由添加自己的虚拟内容或样式！
 
-### Hints
-- For this exercise you will need to add some CSS declaration blocks to the style.css file. Look through the HTML to see what selectors and combinators you can use.
-- Take the layout one section at a time
-- You don't need to add or change anything to the HTML, but it will be helpful to look through the parent and child relationships between elements
-- Just like with Flexbox, you can easily center an item by making it into a grid
-- Don't worry about the placeholder image element stretching when resizing the browser window. This will be covered in the Responsive lessons
+## 提示
 
-## Desired Outcome
+- 对于这个练习，你需要在style.css文件中添加一些CSS声明块。查看HTML文件，看看可以使用哪些选择器和组合器。
+- 一次处理一个布局部分
+- 你不需要添加或更改HTML中的任何内容，但查看元素之间的父子关系会很有帮助
+- 就像使用Flexbox一样，你可以通过将元素变成网格来轻松居中
+- 不用担心调整浏览器窗口大小时占位图片元素的拉伸问题。这将在响应式课程中介绍
 
-![desired outcome](./desired-outcome.png)
+## 期望效果
 
-If you use the tools in the Advanced Grid Properties lesson you should be able to get your article cards to automatically fit as the browser window is adjusted:
+![期望效果](./desired-outcome.png)
 
-![desired outcome stretched](./desired-outcome-stretched.png)
+如果你使用高级Grid属性课程中的工具，你应该能够让文章卡片在调整浏览器窗口大小时自动适应：
 
-### Self Check
-- The container element has two columns
-- The container's second column is 4 times larger than the first column
-- The container element has a gap of 4px
-- The header element has two columns
-- The `ul` inside the menu element contains another grid
-- The `ul` inside the nav element contains another grid
-- The sidebar element has a gap of 50px
-- The text elements in the sidebar are centered with grid
-- The article element should set grid columns using `repeat` along with the `auto-fit` and `minmax` properties
-- The article columns should have a minimum value of 250px and a maximum of 1fr unit
-- The article element has a gap of 15px
-- The card elements inside the article container have a height of 200px
-- The header and footer span across both columns
-- The sidebar only spans across the first column
-- The nav and article elements only span across the second column
+![拉伸后的期望效果](./desired-outcome-stretched.png)
+
+## 自检清单
+
+- 容器元素有两列
+- 容器的第二列是第一列的4倍大
+- 容器元素的间隙为4px
+- header元素有两列
+- menu元素内的`ul`包含另一个网格
+- nav元素内的`ul`包含另一个网格
+- sidebar元素的间隙为50px
+- sidebar中的文本元素使用网格居中
+- article元素应该使用`repeat`以及`auto-fit`和`minmax`属性设置网格列
+- article列的最小值为250px，最大值为1fr单位
+- article元素的间隙为15px
+- article容器内的card元素高度为200px
+- header和footer横跨两列
+- sidebar只横跨第一列
+- nav和article元素只横跨第二列

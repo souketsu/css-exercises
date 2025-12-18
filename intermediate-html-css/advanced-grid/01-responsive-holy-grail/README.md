@@ -1,28 +1,29 @@
-# Responsive Holy Grail Layout with Grid
+# 使用Grid实现响应式圣杯布局
 
-For this exercise, we are going to take our Holy Grail Layout from the first exercise and make it responsive. To do this we will simply change our fixed track sizes to be dynamic. Consider this a warmup for the next exercise and make sure your layout is responding properly when resizing the browser window.
+在这个练习中，我们将基于第一个练习中的圣杯布局，使其具有响应式特性。为此，我们只需要将固定的轨道尺寸改为动态尺寸。这可以看作是下一个练习的热身，请确保在调整浏览器窗口大小时，布局能够正确响应。
 
-### Hints
-- You only need to add to the CSS selectors
-- Use dynamic track sizes for your columns and rows
+## 提示
 
-## Desired Outcome
+- 你只需要添加CSS选择器
+- 为列和行使用动态轨道尺寸
 
-When the browser is narrow:
+## 预期效果
 
-![desired outcome narrow](./desired-outcome-narrow.png)
+当浏览器窗口较窄时：
 
-When the browser is stretched wide:
+![窄屏效果](./desired-outcome-narrow.png)
 
-![desired outcome wide](./desired-outcome-wide.png)
+当浏览器窗口拉伸较宽时：
 
-### Self Check
-- The gap is 15px
-- The grid has two columns
-- The grid has four rows
-- The grid tracks do not use static sizes (no pixels!)
-- The second column is three times larger than the other
-- The third row is five times larger than the others
-- The columns narrow and widen as the viewport changes size
-- Row 3 gets taller to accomodate text wrapping as you narrow the viewport size 
+![宽屏效果](./desired-outcome-wide.png)
 
+## 自检清单
+
+- 网格间隙为15px
+- 网格有两列
+- 网格有四行
+- 网格轨道不使用静态尺寸（不使用像素单位！）
+- 第二列是第一列的三倍宽
+- 第三行是其他行的五倍高
+- 列宽会随着视口大小的变化而调整
+- 当视口变窄时，第三行会变高以适应文本换行

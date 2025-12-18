@@ -89,3 +89,36 @@
   font-size: 13px;
   font-weight: normal;
 }
+
+/* 我的修改 */
+.container{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
+}
+
+.header, .footer {
+  grid-column: 1 / 3;
+}
+
+.sidebar {
+  grid-row: 2 / 4;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.logo{
+  justify-self: start;
+}
+.menu{
+ align-self: center;
+}
+
+
+.sidebar {
+  display: grid;
+
+}
